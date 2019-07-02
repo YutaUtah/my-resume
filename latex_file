@@ -1,0 +1,221 @@
+% Resume in Latex
+% Author : Yuta Hayashi
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+
+\usepackage[charter]{mathdesign} % Bitstream Charter
+% \usepackage{newpxtext,newpxmath} % Palatino
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  \small \textbf{{\huge Yuta Hayashi}} \\  
+  \vspace{5pt}
+  \href{yuta.hayashi.soccer@gmail.com}{\color{blue}{yuta.hayashi.soccer@gmail.com}} $\vert$
+  920-268-1902 $\vert$
+  \faLinkedin : \href{https://linkedin.com/in/yuta-hayashi-884409b2/}{\color{blue}{Yuta Hayashi}} $\vert$
+  \faGithub : \href{https://github.com/YutaUtah}{\color{blue}{Yuta Hayashi}} \\
+ \vspace{5pt}
+ \small 1121 E Hyde Park Blvd, Chicago, IL 60615
+\end{center}
+
+%-----------EDUCATION-----------------
+\shorterSection{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lawrence University}{Appleton, WI}
+      {Bachelor of Arts, Major: Mathematics; Minor: Physics and Anthropology GPA: 3.71/4.0}{June 2019} 
+  \resumeSubHeadingListEnd
+  \vspace{-9pt} 
+  {Dean's Honor List | Lambda Sigma Honor Society}
+  
+  
+  %-----------EXPERIENCE-----------------
+\shorterSection{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Lawrence University}{Appleton, WI}
+      {Machine Learning Independent Research}{January 2019 - June 2019}
+       \begin{itemize}
+       \vspace{-2pt}
+                \item Implemented K-means and hierarchical clustering using FIFA 2019 players data with \textbf{R}  and \textbf{Python} 
+        \vspace{-2pt} \item Created a linear regression model to predict players' compensation 
+            \end{itemize}
+          }
+
+    \resumeSubheading
+      {Litalico}{Tokyo, Japan}
+      {Data Analyst Intern}{November 2018 - December 2018}
+       \begin{itemize}
+       \vspace{-2pt}
+                \item Cleansed customer feedback raw data and predictive models with \textbf{R} to forecast potential customers
+       \vspace{-2pt}
+                \item Achieved 11\% sales increase through predictive analysis on a large, complex data set
+       \vspace{-2pt}
+                          \item Managed large customer information data sets utilizing \textbf{SQL} to better organize customer feedback 
+       \vspace{-2pt}
+                          \item Advised the other team on how to design customer feedback questionnaire and conducted customer interviews                    
+        \vspace{-2pt}
+                          \item Presented data summary report to executive board meeting in a visually coherent manner
+         \end{itemize}
+        
+  
+  
+  \resumeSubheading
+      {Cheerio}{Tokyo, Japan}
+      {Data Analyst Intern}{June 2017 - August 2017}
+       \begin{itemize}
+       \vspace{-2pt}
+                \item Performed interpretational marketing data models by identifying business trends and issues using \textbf{Excel}
+       \vspace{-2pt}
+             		     \item Accomplished 5\% sales increase in Tokyo within 2 months by providing crucial insights into sales forecasts
+       \vspace{-2pt}
+                 \item Provided income and expenditure forecasts with predictive models by interpreting existing sales data using \textbf{R} 
+       \vspace{-2pt}
+                          \item Created a presentation of the data analysis to executive board with actionable insights and visualization
+         \end{itemize}
+         
+   \resumeSubheading
+      {Housmart}{Tokyo, Japan}
+      {Web Consultant Intern}{June 2016 - August 2016}
+       \begin{itemize}
+       \vspace{-2pt}
+                \item Achieved 20,000 website viewers increase by utilizing \textbf{Google Analytics} and A/B test 
+       \vspace{-2pt}
+             		     \item 	Maintained user data quality and integrated data using \textbf{SQL}
+       \vspace{-2pt}
+                 \item Managed company’s social media platforms with \textbf{HTML}, \textbf{CSS}
+         \end{itemize}
+    }
+    
+  \resumeSubHeadingListEnd
+  %-----------PROJECT-----------------
+\shorterSection{PROJECT}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Lawrence University}{Appleton, WI}
+      {Statistical Modeling Independent Project}{September 2018 - November 2018}
+       \begin{itemize}
+       \vspace{-2pt}
+                \item Learned advanced statistics and applied to complex human freedom index data sets with scikit-learn package
+        \vspace{-2pt} \item Created statistical models with \textbf{Python} and presented interpretational summary data to faculties
+            \end{itemize}
+          }
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\shorterSection{SKILLS}
+  \resumeSubHeadingListStart
+  \small
+    \item{
+     \textbf{Tools}{: R (3 years), Python (2 years), SQL (1 year), MS Excel (V-lookup, Pivot Table), Mathematica (2 years), \LaTex (1 year)}
+    \vspace{-5pt}
+    \item{
+     {\textbf{Skills}}{: Hypothesis testing, Regression analysis, Data mining, Predictive modeling, Data visualization, Machine learning, Cross validation, Optimization, Clustering, Classification, K-means, Scikit-learn}
+    }
+    \vspace{-5pt}
+    \item{
+     {\textbf{Courseworks}}{: Scientific Programming, Quantitative Analysis, Linear Algebra, Optimization, Statistical Modeling}
+    }
+    \vspace{-5pt}
+    \item{
+     {\textbf{Co-Curricular Activities}}{: Varsity Soccer, Student Government (Board Member), Sigma Phi Epsilon (VP Finance)}
+    }
+     \vspace{-5pt}
+    \item{
+     {\textbf{Work Authorization}}{: I am authorized to work in the United states without sponsorship until July 2022}
+    }
+    
+\resumeSubHeadingListEnd
+
+
+ \end{document}
+
+
+
+
+
+
+
+
+
+
+
+
